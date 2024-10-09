@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    gap: 10px;
+
+    border-bottom: 2px solid grey;
+    padding-bottom: 10px;
+    margin: 10px;
+}
+
+#logga{
+    max-width: 100px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+    width: 100%;
+}
+
+#container a{
+    color: black;
+    text-decoration: none;
+}
