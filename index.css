@@ -1,5 +1,12 @@
+@font-face {
+    font-family: "Text";
+    src: url(material/Inter.ttf);
+}
+
 body{
     margin: 0;
+    font-family: text;
+    
 }
 
 header{
@@ -72,7 +79,7 @@ main{
     justify-content: center;
     gap: 30px;
     margin: 100px 0px;
-    
+
     padding: 30px;
     border-top: 2px solid grey;
     border-bottom: 2px solid grey;
@@ -80,6 +87,19 @@ main{
 
 #company img{
     height: 20px;
+}
+
+.dogpicture{
+    max-width: 1000px;
+}
+
+.dogs1{
+    max-width: 500px;
+}
+
+.dogs2{
+    display: flex;
+    justify-content: center;
 }
 
 @media (max-width: 600px){
