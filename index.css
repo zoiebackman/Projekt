@@ -66,6 +66,22 @@ main{
     max-width: 500px;
 }
 
+#company{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 100px 0px;
+    
+    padding: 30px;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+
+#company img{
+    height: 20px;
+}
+
 @media (max-width: 600px){
 
 }
