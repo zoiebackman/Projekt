@@ -55,6 +55,9 @@ a#buttom{
     border-radius: 5px;
 }
 
+
+/* NY DIV I MAIN*/
+
 main{
     max-width: 1000px;
     margin: 0 auto;
@@ -73,6 +76,9 @@ main{
     max-width: 500px;
 }
 
+
+/* NY DIV I MAIN*/
+
 #company{
     display: flex;
     flex-wrap: wrap;
@@ -89,6 +95,9 @@ main{
     height: 20px;
 }
 
+
+/* NY DIV I MAIN*/
+
 .dogpicture{
     max-width: 1000px;
 }
@@ -100,21 +109,131 @@ main{
 .dogs2{
     display: flex;
     justify-content: center;
+
+    width: 33%;
+
+    font-size: 20px;
 }
+
+.dogs2 img{
+    height: 40px;
+}
+
+/* NY DIV I MAIN*/
 
 #freeplan{
     max-width: 600px;
     margin: 80px auto;
 
-    padding: 70px 0px;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
+    padding: 80px 0px;
 
 }
 
 #free1{
     text-align: center;
+
+    margin: 50px 0px;
+
+    /* FIXA TEXT STORLEK RÄTT*/
 }
+
+#rutafree{
+   background-color: #f4f4f4;
+   padding: 25px;
+   border-radius: 5px;
+}
+
+#rutafree img{
+    height: 15px;
+}
+
+#features{
+    padding-bottom: 19px;
+}
+
+.rutafree2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 2px solid #e5e5e5;
+}
+
+#fetch{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* NY DIV I MAIN*/
+
+#build-team{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+}
+
+#build-team1{
+    grid-column: 2 / 3;
+    margin: 40px 0px;
+}
+
+#del1{
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+#del2{
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+#del3{
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+.build-team2{
+    text-align: center;
+}
+
+/* NY DIV I MAIN*/
+
+#doglove{
+    display: flex;
+    justify-content: center;
+}
+
+#rated{
+    display: flex;
+}
+#badges{
+    max-width: 500px;
+}
+
+#procent{
+    display: flex;
+    justify-content: space-around;
+
+    text-align: center;
+}
+
+#barky{
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+
+
+.freetext{
+    color:  #999999;
+}
+
+
 
 @media (max-width: 600px){
 
