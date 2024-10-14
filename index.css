@@ -109,12 +109,18 @@ main{
 .dogs2{
     display: flex;
     justify-content: center;
-
+    align-items: center;
+    
     width: 33%;
-
+    margin: auto;
     font-size: 20px;
 }
 
+.citat{
+    font-size: 36px;
+    max-width: 900px;
+    margin: 0 auto;
+}
 .dogs2 img{
     height: 40px;
 }
@@ -126,7 +132,8 @@ main{
     margin: 80px auto;
 
     padding: 80px 0px;
-
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
 }
 
 #free1{
@@ -172,6 +179,7 @@ main{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr 1fr;
+    margin-top: 80px;
 }
 
 #build-team1{
@@ -220,9 +228,8 @@ main{
 }
 
 #barky{
-    display: flex;
-    justify-content: center;
-
+    text-align: center;
+    margin-bottom: 80px;
 
 }
 
@@ -262,6 +269,35 @@ footer{
     font-size: 13px;
 }
 
+.storlek14{
+    font-size: 14px;
+}
+.storlek18{
+    font-size: 18px;
+}
+
+.storlek36{
+    font-size: 36px;
+}
+
+.storlek45{
+    font-size: 45px;
+}
+
+.weight320{
+    font-weight: 320;
+}
+
+.weight400{
+    font-weight: 400;
+}
+
+.weight500{
+    font-weight: 500;
+}
+.weight550{
+    font-weight: 550;
+}
 @media (max-width: 600px){
 
 }
