@@ -100,6 +100,7 @@ main{
 
 .dogpicture{
     max-width: 1000px;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.1);
 }
 
 .dogs1{
@@ -140,8 +141,11 @@ main{
     text-align: center;
 
     margin: 50px 0px;
+}
 
-    /* FIXA TEXT STORLEK RÄTT*/
+#freep{
+    padding: 0px 30px;
+    margin-bottom: 20px;
 }
 
 #rutafree{
@@ -269,11 +273,22 @@ footer{
     font-size: 13px;
 }
 
+.storlek135{
+    font-size: 13.5px;
+}
 .storlek14{
     font-size: 14px;
 }
+
+.storlek15{
+    font-size: 15px;
+}
 .storlek18{
     font-size: 18px;
+}
+
+.storlek26{
+    font-size: 26px;
 }
 
 .storlek36{
@@ -297,6 +312,10 @@ footer{
 }
 .weight550{
     font-weight: 550;
+}
+
+.weight650{
+    font-weight: 650;
 }
 @media (max-width: 600px){
 
