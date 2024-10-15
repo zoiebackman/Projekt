@@ -13,19 +13,25 @@ header{
     display: flex;
     gap: 10px;
 
-    border-bottom: 2px solid grey;
-    padding-bottom: 10px;
-    margin: 10px;
+    background-color: white;
+    border-bottom: 2px solid #e5e5e5;
+    margin: 0 10px;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
 }
 
 #logga{
-    max-width: 100px;
+    height: 20px;
+    padding: 10px 0;
 }
 
 #container {
     display: flex;
     justify-content: space-between;
-    align-items: end;
+    align-items: center;
 
     width: 100%;
 }
@@ -43,7 +49,7 @@ div#right{
 
 #linje{
     padding-right: 20px;
-    border-right: 2px solid black;
+    border-right: 2px solid #e5e5e5;
 }
 
 a#buttom{
@@ -60,7 +66,7 @@ a#buttom{
 
 main{
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 100px auto;
 }
 #together{
     display: grid;
@@ -87,8 +93,8 @@ main{
     margin: 100px 0px;
 
     padding: 30px;
-    border-top: 2px solid grey;
-    border-bottom: 2px solid grey;
+    border-top: 2px solid #e5e5e5;
+    border-bottom: 2px solid #e5e5e5;
 }
 
 #company img{
@@ -118,9 +124,8 @@ main{
 }
 
 .citat{
-    font-size: 36px;
-    max-width: 900px;
-    margin: 0 auto;
+    margin: 20px auto;
+    text-align: center;
 }
 .dogs2 img{
     height: 40px;
@@ -133,8 +138,8 @@ main{
     margin: 80px auto;
 
     padding: 80px 0px;
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 #free1{
@@ -215,11 +220,20 @@ main{
 #doglove{
     display: flex;
     justify-content: center;
+
+    margin: 60px;
 }
+
 
 #rated{
     display: flex;
+    gap: 60px;
 }
+
+#ratedrubrik{
+    margin: 60px;
+}
+
 #badges{
     max-width: 500px;
 }
@@ -297,6 +311,10 @@ footer{
 
 .storlek45{
     font-size: 45px;
+}
+
+.storlek53{
+    font-size: 53px;
 }
 
 .weight320{
