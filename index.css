@@ -324,12 +324,12 @@ main{
 
 #barky{
     text-align: center;
-    margin-bottom: 80px;
-
+    margin: 80px 0;
 }
 
 footer{
     border-top: 1px solid #e5e5e5;
+    margin: auto 10px;
 }
 
 #footer{
@@ -350,12 +350,14 @@ footer{
 
 #footer img{
     height: 20px;
-    padding: 0px 5px;
+    padding: 0px 1px;
     margin-top: 20px;
 }
 
 #footer #bild1{
-    height: 30px;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 0;
 }
 
 #textbarky{
