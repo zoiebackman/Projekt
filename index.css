@@ -222,7 +222,7 @@ main{
 #build-team{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: auto auto;
     margin-top: 80px;
     border-top: 1px solid #e5e5e5;
 }
