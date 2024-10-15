@@ -14,7 +14,7 @@ header{
     gap: 10px;
 
     background-color: white;
-    border-bottom: 2px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
     margin: 0 10px;
 
     position: fixed;
@@ -329,20 +329,25 @@ main{
 }
 
 footer{
+    border-top: 1px solid #e5e5e5;
+}
+
+#footer{
     max-width: 1200px;
     margin: 0 auto;
 
     box-sizing: border-box;
     padding: 60px 200px 60px 60px;
-    border-top: 1px solid #e5e5e5;
+    
     
     display: flex;
     justify-content: space-between;
 }
 
-#footer{
+#footer1{
     flex-basis: 250px;
 }
+
 #footer img{
     height: 20px;
     padding: 0px 5px;
