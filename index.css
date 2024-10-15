@@ -340,16 +340,25 @@ footer{
     justify-content: space-between;
 }
 
+#footer{
+    flex-basis: 250px;
+}
 #footer img{
     height: 20px;
+    padding: 0px 5px;
+    margin-top: 20px;
 }
 
 #footer #bild1{
-    height: 40px;
+    height: 30px;
 }
 
 #textbarky{
     margin-top: 60px;
+}
+
+#textbarky1{
+    padding-bottom: 20px;
 }
 /* textstorlek och färg*/
 
