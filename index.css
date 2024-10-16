@@ -131,7 +131,7 @@ main{
 }
 
 .dogs1{
-    max-width: 500px;
+    max-width: 450px;
 }
 
 .dog-infoh{
@@ -179,8 +179,11 @@ main{
 
 #free1{
     text-align: center;
-
     margin: 50px 0px;
+}
+
+#freeh{
+    margin-bottom: 0;
 }
 
 #freep{
@@ -229,7 +232,7 @@ main{
 
 #build-team1{
     grid-column: 2 / 3;
-    margin: 80px 0px;
+    margin: 80px 0px 50px;
 }
 
 .build-teamh{
@@ -372,6 +375,43 @@ footer{
 .freetext{
     color:  #999999;
 }
+
+.färgA{
+    color: #050505;
+}
+
+.färgB{
+    color: #121212;
+}
+
+.färgC{
+    color: #353535;
+}
+
+.färgD{
+    color: #666666;
+}
+
+.färgE{
+    color: #7f7f7f;
+}
+
+.färgF{
+    color:#999999;
+}
+
+.färgG{
+    color: #e5e5e5;
+}
+
+.färgH{
+    color: #f4f4f4;
+}
+
+.färgI{
+    color: #087fe7;
+}
+
 
 .storlek12{
     font-size: 12px;
