@@ -234,18 +234,23 @@ main{
 
 /* NY DIV I MAIN*/
 
+#build2{
+    display: flex;
+}
+
+
 #build-team{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto auto;
     margin-top: 80px;
     border-top: 1px solid #e5e5e5;
 }
 
 #build-team1{
-    grid-column: 2 / 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 80px 0px 50px;
 }
+
 
 .build-teamh{
     margin: 0;
@@ -258,18 +263,15 @@ main{
 }
 
 #del1{
-    grid-column: 1 / 2;
-    grid-row: 2 / 3;
-
     padding: 0 25px;
-    margin: 0;
+    text-align: center;
+    
+    
 }
 
 #del2{
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-
     padding: 0 25px;
+    text-align: center;
 
     border-left: 1px solid #e5e5e5;
     border-right: 1px solid #e5e5e5;
@@ -277,14 +279,20 @@ main{
 }
 
 #del3{
-    grid-column: 3 / 4;
-    grid-row: 2 / 3;
-
     padding: 0 25px;
+    text-align: center;
 }
 
 .build-team2{
     text-align: center;
+}
+
+.link{
+    color: #121212;
+}
+
+.link:hover{
+    color: #087fe7;
 }
 
 
@@ -354,7 +362,7 @@ footer{
     
     
     display: flex;
-    justify-content: space-between;
+    
 }
 
 #footer1{
@@ -371,6 +379,12 @@ footer{
     height: 25px;
     margin-top: 10px;
     margin-left: 0;
+}
+
+#footer2{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
 }
 
 #textbarky{
@@ -476,8 +490,107 @@ footer{
 }
 @media (max-width: 600px){
     header{
-        max-width: 600px;
-        box-sizing: border-box;
+        width: 580px;
+        border-bottom: none;
+    }
+
+    div#left{
+        display: none;
+    }
+
+    div#right{
+        display: none;
+    }
+
+    #hamburger{
+        display: block;
+       
+        margin: 10px 10px 0 auto;
+    }
+
+    #logga{
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+
+    #together{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    #company{
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .dogpicture{
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    .dog-information{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 500px;
+        margin: 0 auto;
+    }
+
+    #dog-information1{
+        margin-top: 80px;
+    }
+
+    .dogtext{
+        font-size: 26px;
+    }
+
+    #freeplan{
+        max-width: 560px;
+    }
+
+    #build2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .build-team2{
+        margin-top: 40px;
+    }
+
+    #del2{
+        border-right: none;
+        border-left: none;
+    }
+
+    #rated{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 30px;
+    }
+
+    #procent{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer2{
+        display: flex;
+        flex-wrap: wrap;
+        gap: none;
     }
 }
 
