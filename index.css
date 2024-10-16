@@ -99,6 +99,13 @@ main{
     padding: 30px;
 }
 
+#ruta1h{
+    margin: 0;
+}
+
+#ruta1p{
+    margin-top: 5px;
+}
 #togetherbild{
     max-width: 500px;
 }
