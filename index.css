@@ -26,7 +26,6 @@ header{
 #logga{
     height: 20px;
     padding: 10px 0;
-    margin: 0 20px;
 }
 
 #container {
@@ -83,7 +82,7 @@ a.buttom:hover{
 
 .knapp:hover{
     background-color: #e5e5e5;
-    border-radius: 7px;
+    border-radius: 5px;
 }
 
 /* NY DIV I MAIN*/
@@ -99,7 +98,6 @@ main{
 }
 
 #ruta1{
-    padding: 30px;
     max-width: 510px;
 }
 
@@ -158,10 +156,8 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    width: 33%;
+  
     margin: 30px auto 80px;
-    font-size: 20px;
 }
 
 .dogs3{
@@ -170,7 +166,13 @@ main{
 .citat{
     margin: 20px auto;
     text-align: center;
+    
 }
+
+.dogtext{
+    padding: 0 20px;
+}
+
 .dogs2 img{
     height: 40px;
     margin: 0 10px;
@@ -257,22 +259,19 @@ main{
 }
 
 #build-teamp{
-    margin: 5px;
+    margin: 10px 0 5px;
     text-align: center;
-    margin-top: 10px;
 }
 
 #del1{
     padding: 0 25px;
     text-align: center;
     
-    
 }
 
 #del2{
     padding: 0 25px;
     text-align: center;
-
     border-left: 1px solid #e5e5e5;
     border-right: 1px solid #e5e5e5;
    
@@ -283,9 +282,6 @@ main{
     text-align: center;
 }
 
-.build-team2{
-    text-align: center;
-}
 
 .link{
     color: #121212;
@@ -299,17 +295,13 @@ main{
 /* NY DIV I MAIN*/
 
 #doglove{
-    display: flex;
-    justify-content: center;
-
-    margin-top: 100px;
-    margin-bottom: 40px;
+    text-align: center;
+    margin: 100px 0 40px;
 }
-
 
 #rated{
     display: flex;
-    gap: 60px;
+    gap: 80px;
 }
 
 #ratedrubrik{
@@ -330,6 +322,7 @@ main{
 .pro{
     border-right: 1px solid #e5e5e5;
     padding: 0px 60px;
+    
 }
 
 #pro1{
@@ -383,8 +376,29 @@ footer{
 
 #footer2{
     display: flex;
-    justify-content: space-between;
     gap: 100px;
+}
+
+#fot1 a,#fot2 a,#fot3 a,#fot4 a{
+    display: flex;
+    text-decoration: none;
+    padding: 7px 0;
+}
+
+#fot1 a:hover{
+    text-decoration: underline;
+}
+
+#fot2 a:hover{
+    text-decoration: underline;
+}
+
+#fot3 a:hover{
+    text-decoration: underline;
+}
+
+#fot4 a:hover{
+    text-decoration: underline;
 }
 
 #textbarky{
@@ -478,9 +492,6 @@ footer{
     font-weight: 400;
 }
 
-.weight450{
-    font-weight: 450;
-}
 .weight550{
     font-weight: 550;
 }
@@ -490,10 +501,11 @@ footer{
 }
 @media (max-width: 600px){
     header{
-        width: 580px;
+        max-width: 580px;
         border-bottom: none;
+        position: static;
     }
-
+    
     div#left{
         display: none;
     }
@@ -501,16 +513,22 @@ footer{
     div#right{
         display: none;
     }
-
+    
     #hamburger{
         display: block;
-       
         margin: 10px 10px 0 auto;
     }
 
+    #hamburger:hover{
+        background-color: #999999;
+    }
+    
     #logga{
-        margin-top: 5px;
-        margin-left: 10px;
+        margin: 5px 0 0 10px;
+    }
+    
+    main{
+        max-width: 540px;
     }
 
     #together{
@@ -520,51 +538,32 @@ footer{
         text-align: center;
     }
 
-    #company{
-        width: 500px;
-        margin: 0 auto;
+    #ruta1{
+        margin-top: 10px;
     }
 
     .dogpicture{
-        width: 500px;
-        margin: 0 auto;
-    }
-
-    .dog-information{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        width: 500px;
-        margin: 0 auto;
-    }
-
-    #dog-information1{
-        margin-top: 80px;
-    }
-
-    .dog-infop{
-        font-size: 15px;
+        width: 540px;
     }
 
     .dogtext{
         font-size: 26px;
+        margin-top: 40px;
     }
 
-    #freeplan{
-        max-width: 560px;
+    .dog-information{
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .dog-infoh{
+        max-width: 540px;
     }
 
-    #free1{
-        margin: 40px auto;
+    .dog-infop{
+        max-width: 540px;
     }
-
-    #freep{
-        font-size: 18px;
-      
-        
-    }
-
+    
     #build2{
         display: flex;
         flex-direction: column;
@@ -583,7 +582,7 @@ footer{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 0 30px;
+        margin: 0 25px;
     }
 
     #procent{
@@ -591,28 +590,35 @@ footer{
         flex-direction: column;
     }
 
+    .pro{
+        border-right: none;
+    }
+
     #footer{
         display: flex;
         flex-direction: column;
         padding-left: 20px;
+        
     }
 
     #footer1{
         display: flex;
         flex-direction: column;
         align-items: start;
+
     }
 
     #footer2{
-        display: flex;
-        flex-wrap: wrap;
-        gap: none;
-        font-weight: 550;
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: repeat(2, auto);
+        gap: 20px; 
     }
 
-    #textbarky{
+
+
+    .textbarky{
         margin-top: 15px;
     }
+
 }
-
-
