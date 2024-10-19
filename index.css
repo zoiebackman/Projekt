@@ -458,7 +458,7 @@ p{
 
     #hamburger{
         display: block;
-        margin: 10px 10px 0 auto;
+        margin: 0px 10px 0 auto;
         padding: 3px;
         border-radius: 5px;
     }
@@ -530,8 +530,12 @@ p{
         display: flex;
         flex-direction: column;
         align-items: start;
-
+        flex-basis: 0;
     }
+
+    #footer1-p{
+        margin-top: 15px;
+   }
 
     #footer2{
         display: grid; 
@@ -540,7 +544,7 @@ p{
         gap: 20px; 
     }
 
-    #footer1-p{
-         margin-top: 15px;
+    #footer2 p{
+        font-weight: 550;
     }
 }
