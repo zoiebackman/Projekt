@@ -1,12 +1,11 @@
 @font-face {
-    font-family: "Text";
+    font-family: "text";
     src: url(material/Inter.ttf);
 }
 
 body{
-    margin: 0;
-    font-family: text;
-    
+    margin: 0 auto;
+    font-family:text;
 }
 
 header{
@@ -20,7 +19,7 @@ header{
     position: fixed;
     top: 0;
     right: 0;
-    left: 0; 
+    left: 0;
 }
 
 #logga{
@@ -28,42 +27,49 @@ header{
     padding: 10px 0;
 }
 
-#container {
+#container{
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     width: 100%;
+
+    font-size: 12px;
 }
 
 #container a{
-    color: black;
+    color: #050505;
     text-decoration: none;
 }
 
-div#left{
+#left{
     display: flex;
     gap: 20px;
 }
-div#right{
+
+#right{
     display: flex;
     gap: 5px;
     align-items: center;
 }
 
-#hamburger{
-    display: none;
-    width: 20px;
-}
-
-#linjal{
+#line{
     height: 15px;
     border-right: 1px solid #e5e5e5;
 }
 
-a.buttom{
-    background-color: black;
-    color: white !important;
+.knapp{
+    padding: 5px 10px;
+}
+
+.knapp:hover{
+    background-color: #e5e5e5;
+    border-radius: 5px;
+}
+
+.buttom{
+    background-color: #121212;
+    color: #f4f4f4 !important;
     text-decoration: none;
 
     padding: 5px 10px;
@@ -72,21 +78,16 @@ a.buttom{
     box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.1);
 }
 
-a.buttom:hover{
+.buttom:hover{
     background-color: #353535;
 }
 
-.knapp{
-    padding: 5px 10px;
+#hamburger{
+    display: none;
+    width: 20px;
 }
 
-
-.knapp:hover{
-    background-color: #e5e5e5;
-    border-radius: 5px;
-}
-
-/* NY DIV I MAIN*/
+/* START PÅ MAIN*/
 
 main{
     max-width: 1000px;
@@ -94,37 +95,26 @@ main{
 }
 
 #together{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: 80px 0px;
+    display: flex;
 }
 
-#ruta1{
+#together-text{
     max-width: 510px;
 }
 
-#ruta1h{
-    margin: 0;
-}
-
-#ruta1p{
-    margin-top: 15px;
-    margin-bottom: 25px;
-}
 #togetherbild{
-    max-width: 500px;
+    max-width: 490px;
 }
 
-
-/* NY DIV I MAIN*/
+/*NY DIV I MAIN*/
 
 #company{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
-    margin: 100px 0px;
 
+    margin: 100px 0;
     padding: 30px;
     border-top: 1px solid #e5e5e5;
     border-bottom: 1px solid #e5e5e5;
@@ -134,19 +124,21 @@ main{
     height: 25px;
 }
 
+/*NY DIV I MAIN*/
 
-/* NY DIV I MAIN*/
-
-.dogs1{
+.dog-information{
     max-width: 450px;
 }
 
-.dog-infoh{
+.dog-information-h{
+    font-size: 36px;
     margin: 0;
 }
 
-.dog-infop{
-    margin: 10px 0 40px;
+.dog-information-p{
+    font-size: 15px;
+    font-weight: 320;
+    margin: 20px 0 40px;
 }
 
 .dogpicture{
@@ -155,74 +147,76 @@ main{
 }
 
 .citat{
-    margin: 20px auto;
-    text-align: center;
-    padding: 0 20px;
-    
+   color: #999999;
+   font-size: 36px;
+   font-weight: 550;
+   margin: 20px auto;
+   text-align: center;
+   padding: 0 20px;
 }
 
-
-.dogs2{
+.user{
     display: flex;
     justify-content: center;
     align-items: center;
-  
     margin: 30px auto 80px;
 }
 
-.dogs3{
+.user img{
+    height: 40px;
+    margin: 0 10px;
+}
+
+.user-p-1{
+    font-size: 14px;
+    color: #050505;
+    font-weight: 500;
     margin: 0;
 }
 
-
-
-.dogs2 img{
-    height: 40px;
-    margin: 0 10px;
+.user-p-2{
+    font-size: 12px;
+    color: #999999;
+    margin: 0;
 }
 
 #border{
     border-bottom: 1px solid #e5e5e5;
 }
 
-/* NY DIV I MAIN*/
+/*NY DIV I MAIN*/
 
-#freeplan{
+#free-plan{
     max-width: 600px;
     margin: 0 auto;
 
     padding-top: 30px;
 }
 
-#free1{
+#start-free{
     text-align: center;
-    margin: 50px 0px;
+    margin-bottom: 60px;
 }
 
-#freeh{
+#start-free h2{
     margin-bottom: 0;
+    font-size: 36px;
 }
 
-#freep{
+#start-free p{
+    font-size: 15px;
+    font-weight: 320;
     padding: 0px 30px;
     margin-bottom: 20px;
 }
 
-#rutafree{
-   background-color: #f4f4f4;
-   padding: 25px;
-   border-radius: 5px;
+#free-start{
+    background-color: #f4f4f4;
+    padding: 15px 25px;
+    border-radius: 5px;
 }
 
-#rutafree img{
-    height: 15px;
-}
-
-#features{
-    padding-bottom: 19px;
-}
-
-.rutafree2{
+.free-start-rutor{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -230,75 +224,83 @@ main{
     border-bottom: 2px solid #e5e5e5;
 }
 
-#fetch{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+#barky-for-teams{
+    color: #050505;
 }
 
+.free-start-rutor p{
+    font-size: 15px;
+}
+
+#fetch{
+    border-bottom: none;
+}
+
+#free-start img{
+    height: 15px;
+}
 
 /* NY DIV I MAIN*/
 
-#build2{
-    display: flex;
-}
-
-
-#build-team{
-    margin-top: 80px;
+#team{
+    margin-top: 100px;
     border-top: 1px solid #e5e5e5;
 }
 
-#build-team1{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#built-for-team{
+    text-align: center;
     margin: 80px 0px 50px;
 }
 
-
-.build-teamh{
+#built-for-team h2{
     margin: 0;
+    font-size: 36px;
 }
 
-#build-teamp{
+#built-for-team p{
     margin: 10px 0 5px;
+    font-size: 15px;
+}
+
+#team-2{
+    display: flex;
     text-align: center;
 }
 
-#del1{
+.parts{
     padding: 0 25px;
-    text-align: center;
-    
 }
 
-#del2{
-    padding: 0 25px;
-    text-align: center;
+#part-2{
     border-left: 1px solid #e5e5e5;
     border-right: 1px solid #e5e5e5;
-   
 }
 
-#del3{
-    padding: 0 25px;
-    text-align: center;
+.parts h2{
+   font-size: 26px; 
+   margin: 0;
 }
 
+.parts p{
+    font-size: 15px;
+    font-weight: 400;
+}
 
-.link{
+.parts a{
     color: #121212;
+    font-size: 15px;
 }
 
-.link:hover{
+.parts a:hover{
     color: #087fe7;
 }
 
+/*NY DIV I MAIN*/
 
-/* NY DIV I MAIN*/
-
-#doglove{
+#why-dogs-love-us{
     text-align: center;
+    font-size: 36px;
+    font-weight: 650;
     margin: 100px 0 40px;
 }
 
@@ -307,11 +309,20 @@ main{
     gap: 80px;
 }
 
-#ratedrubrik{
-    margin: 60px;
+#rated h2{
+    font-size: 26px;
 }
 
-#badges{
+#rated a{
+    color: #050505;
+}
+
+#rated p{
+    color: #050505;
+    font-size: 15px;
+}
+
+#rated img{
     max-width: 500px;
 }
 
@@ -322,27 +333,44 @@ main{
     text-align: center;
 }
 
-.pro{
-    border-right: 1px solid #e5e5e5;
+.procent-1{
     padding: 0px 60px;
-    
+    border-left: 1px solid #e5e5e5;
 }
 
-#pro1{
-    padding: 0px 60px;
-}
-.procent1{
-    margin-bottom: 0px;
+#procent-border{
+    border-left: none;
 }
 
-.procent2{
+.procent-1 h1{
+    color: #666666;
+    font-size: 53px;
+    margin-bottom: 0;
+}
+
+.procent-1 p{
+    color: #666666;
+    font-size: 15px;
     margin-top: 5px;
 }
 
-#barky{
+#try-barky-today{
     text-align: center;
-    margin: 80px 0;
 }
+
+#try-barky-today h2{
+    font-size: 36px;
+    margin: 80px 0 0;
+}
+
+#try-barky-today p{
+    font-size: 15px;
+    margin-top: 5px;
+    color: #7f7f7f;
+}
+
+/*START PÅ FOOTER*/
+
 
 footer{
     border-top: 1px solid #e5e5e5;
@@ -355,7 +383,6 @@ footer{
 
     box-sizing: border-box;
     padding: 60px 200px 60px 60px;
-    
     
     display: flex;
     
@@ -377,159 +404,70 @@ footer{
     margin-left: 0;
 }
 
+#footer1 p{
+    font-size: 12px;
+    color: #050505;
+}
+
 #footer2{
     display: flex;
     gap: 100px;
+}
+
+#footer2 p{
+    font-size: 13px;
+    color: #050505;
 }
 
 #fot1 a,#fot2 a,#fot3 a,#fot4 a{
     display: flex;
     text-decoration: none;
     padding: 7px 0;
-}
-
-#fot1 a:hover{
-    text-decoration: underline;
-}
-
-#fot2 a:hover{
-    text-decoration: underline;
-}
-
-#fot3 a:hover{
-    text-decoration: underline;
-}
-
-#fot4 a:hover{
-    text-decoration: underline;
-}
-
-#textbarky{
-    margin-top: 60px;
-}
-
-#textbarky1{
-    padding-bottom: 20px;
-}
-/* textstorlek och färg*/
-
-.freetext{
-    color:  #999999;
-}
-
-.färgA{
-    color: #050505;
-}
-
-.färgB{
-    color: #121212;
-}
-
-.färgC{
-    color: #353535;
-}
-
-.färgD{
     color: #666666;
-}
-
-.färgE{
-    color: #7f7f7f;
-}
-
-.färgF{
-    color:#999999;
-}
-
-.färgG{
-    color: #e5e5e5;
-}
-
-.färgH{
-    color: #f4f4f4;
-}
-
-.storlek12{
-    font-size: 12px;
-}
-
-.storlek13{
     font-size: 13px;
 }
 
-.storlek135{
-    font-size: 13.5px;
-}
-.storlek14{
-    font-size: 14px;
+#fot1 a:hover,#fot2 a:hover,#fot3 a:hover,#fot4 a:hover{
+    text-decoration: underline;
 }
 
-.storlek15{
-    font-size: 15px;
-}
-.storlek18{
-    font-size: 18px;
-}
-
-.storlek26{
-    font-size: 26px;
-}
-
-.storlek36{
-    font-size: 36px;
-}
-
-.storlek45{
+h1, h2{
+    color: #050505;
     font-size: 45px;
 }
 
-.storlek53{
-    font-size: 53px;
+p{
+    color: #666666;
+    font-size: 18px;
 }
 
-.weight320{
-    font-weight: 320;
-}
-
-.weight400{
-    font-weight: 400;
-}
-
-.weight550{
-    font-weight: 550;
-}
-
-.weight650{
-    font-weight: 650;
-}
-@media (max-width: 600px){
+@media (max-width: 600px) {
     header{
         max-width: 580px;
         border-bottom: none;
         position: static;
     }
     
-    div#left{
+    #left{
         display: none;
     }
 
-    div#right{
+    #right{
         display: none;
     }
-    
+
     #hamburger{
         display: block;
         margin: 10px 10px 0 auto;
+        padding: 3px;
+        border-radius: 5px;
     }
 
     #hamburger:hover{
         background-color: #999999;
+        
     }
-    
-    #logga{
-        margin: 5px 0 0 10px;
-    }
-    
+
     main{
         max-width: 540px;
     }
@@ -541,12 +479,13 @@ footer{
         text-align: center;
     }
 
-    #ruta1{
-        margin-top: 10px;
+    .dog-information{
+        text-align: center;
+        margin: 0 auto;
     }
 
     .dogpicture{
-        width: 540px;
+        max-width: 540px;
     }
 
     .citat{
@@ -554,47 +493,30 @@ footer{
         margin-top: 40px;
     }
 
-    .dog-information{
-        text-align: center;
-        margin: 0 auto;
-    }
-    
-    .dog-infoh{
-        max-width: 540px;
-    }
-
-    .dog-infop{
-        max-width: 540px;
-    }
-    
-    #build2{
-        display: flex;
+    #team-2{
         flex-direction: column;
     }
 
-    .build-team2{
-        margin-top: 40px;
+    #part-2{
+        border-left: none;
+        border-right: none;
     }
 
-    #del2{
-        border-right: none;
-        border-left: none;
+    .parts{
+        margin-top: 50px;
     }
 
     #rated{
-        display: flex;
         flex-direction: column;
-        align-items: center;
         margin: 0 25px;
     }
 
     #procent{
-        display: flex;
         flex-direction: column;
     }
 
-    .pro{
-        border-right: none;
+    .procent-1{
+        border-left: none;
     }
 
     #footer{
@@ -618,10 +540,7 @@ footer{
         gap: 20px; 
     }
 
-
-
-    .textbarky{
-        margin-top: 15px;
+    #footer1-p{
+         margin-top: 15px;
     }
-
 }

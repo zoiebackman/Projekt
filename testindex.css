@@ -195,6 +195,7 @@ main{
 
 #start-free{
     text-align: center;
+    margin-bottom: 60px;
 }
 
 #start-free h2{
@@ -207,6 +208,227 @@ main{
     font-weight: 320;
     padding: 0px 30px;
     margin-bottom: 20px;
+}
+
+#free-start{
+    background-color: #f4f4f4;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+
+.free-start-rutor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    border-bottom: 2px solid #e5e5e5;
+}
+
+#barky-for-teams{
+    color: #050505;
+}
+
+.free-start-rutor p{
+    font-size: 15px;
+}
+
+#fetch{
+    border-bottom: none;
+}
+
+#free-start img{
+    height: 15px;
+}
+
+/* NY DIV I MAIN*/
+
+#team{
+    margin-top: 100px;
+    border-top: 1px solid #e5e5e5;
+}
+
+#built-for-team{
+    text-align: center;
+    margin: 80px 0px 50px;
+}
+
+#built-for-team h2{
+    margin: 0;
+    font-size: 36px;
+}
+
+#built-for-team p{
+    margin: 10px 0 5px;
+    font-size: 15px;
+}
+
+#team-2{
+    display: flex;
+    text-align: center;
+}
+
+.parts{
+    padding: 0 25px;
+}
+
+#part-2{
+    border-left: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+}
+
+.parts h2{
+   font-size: 26px; 
+   margin: 0;
+}
+
+.parts p{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.parts a{
+    color: #121212;
+    font-size: 15px;
+}
+
+.parts a:hover{
+    color: #087fe7;
+}
+
+/*NY DIV I MAIN*/
+
+#why-dogs-love-us{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 650;
+    margin: 100px 0 40px;
+}
+
+#rated{
+    display: flex;
+    gap: 80px;
+}
+
+#rated h2{
+    font-size: 26px;
+}
+
+#rated a{
+    color: #050505;
+}
+
+#rated p{
+    color: #050505;
+    font-size: 15px;
+}
+
+#rated img{
+    max-width: 500px;
+}
+
+#procent{
+    display: flex;
+    justify-content: center;
+
+    text-align: center;
+}
+
+.procent-1{
+    padding: 0px 60px;
+    border-left: 1px solid #e5e5e5;
+}
+
+#procent-border{
+    border-left: none;
+}
+
+.procent-1 h1{
+    color: #666666;
+    font-size: 53px;
+    margin-bottom: 0;
+}
+
+.procent-1 p{
+    color: #666666;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+#try-barky-today{
+    text-align: center;
+}
+
+#try-barky-today h2{
+    font-size: 36px;
+    margin: 80px 0 0;
+}
+
+#try-barky-today p{
+    font-size: 15px;
+    margin-top: 5px;
+    color: #7f7f7f;
+}
+
+/*START PÅ FOOTER*/
+
+
+footer{
+    border-top: 1px solid #e5e5e5;
+    margin: auto 10px;
+}
+
+#footer{
+    max-width: 1200px;
+    margin: 0 auto;
+
+    box-sizing: border-box;
+    padding: 60px 200px 60px 60px;
+    
+    display: flex;
+    
+}
+
+#footer1{
+    flex-basis: 250px;
+}
+
+#footer img{
+    height: 20px;
+    padding: 0px 1px;
+    margin-top: 20px;
+}
+
+#footer #bild1{
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+#footer1 p{
+    font-size: 12px;
+    color: #050505;
+}
+
+#footer2{
+    display: flex;
+    gap: 100px;
+}
+
+#footer2 p{
+    font-size: 13px;
+    color: #050505;
+}
+
+#fot1 a,#fot2 a,#fot3 a,#fot4 a{
+    display: flex;
+    text-decoration: none;
+    padding: 7px 0;
+    color: #666666;
+    font-size: 13px;
+}
+
+#fot1 a:hover,#fot2 a:hover,#fot3 a:hover,#fot4 a:hover{
+    text-decoration: underline;
 }
 
 h1, h2{
@@ -236,11 +458,14 @@ p{
 
     #hamburger{
         display: block;
-        margin: 10px 10px 0 auto
+        margin: 10px 10px 0 auto;
+        padding: 3px;
+        border-radius: 5px;
     }
 
     #hamburger:hover{
         background-color: #999999;
+        
     }
 
     main{
@@ -268,5 +493,54 @@ p{
         margin-top: 40px;
     }
 
+    #team-2{
+        flex-direction: column;
+    }
 
+    #part-2{
+        border-left: none;
+        border-right: none;
+    }
+
+    .parts{
+        margin-top: 50px;
+    }
+
+    #rated{
+        flex-direction: column;
+        margin: 0 25px;
+    }
+
+    #procent{
+        flex-direction: column;
+    }
+
+    .procent-1{
+        border-left: none;
+    }
+
+    #footer{
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        
+    }
+
+    #footer1{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+
+    }
+
+    #footer2{
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr); 
+        grid-template-rows: repeat(2, auto);
+        gap: 20px; 
+    }
+
+    #footer1-p{
+         margin-top: 15px;
+    }
 }
