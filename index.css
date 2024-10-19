@@ -80,6 +80,7 @@ a.buttom:hover{
     padding: 5px 10px;
 }
 
+
 .knapp:hover{
     background-color: #e5e5e5;
     border-radius: 5px;
@@ -91,6 +92,7 @@ main{
     max-width: 1000px;
     margin: 100px auto;
 }
+
 #together{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -124,8 +126,8 @@ main{
     margin: 100px 0px;
 
     padding: 30px;
-    border-top: 2px solid #e5e5e5;
-    border-bottom: 2px solid #e5e5e5;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 #company img{
@@ -134,11 +136,6 @@ main{
 
 
 /* NY DIV I MAIN*/
-
-.dogpicture{
-    max-width: 1000px;
-    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.1);
-}
 
 .dogs1{
     max-width: 450px;
@@ -152,6 +149,19 @@ main{
     margin: 10px 0 40px;
 }
 
+.dogpicture{
+    max-width: 1000px;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.1);
+}
+
+.citat{
+    margin: 20px auto;
+    text-align: center;
+    padding: 0 20px;
+    
+}
+
+
 .dogs2{
     display: flex;
     justify-content: center;
@@ -163,15 +173,8 @@ main{
 .dogs3{
     margin: 0;
 }
-.citat{
-    margin: 20px auto;
-    text-align: center;
-    
-}
 
-.dogtext{
-    padding: 0 20px;
-}
+
 
 .dogs2 img{
     height: 40px;
@@ -546,7 +549,7 @@ footer{
         width: 540px;
     }
 
-    .dogtext{
+    .citat{
         font-size: 26px;
         margin-top: 40px;
     }

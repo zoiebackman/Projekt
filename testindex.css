@@ -1,0 +1,272 @@
+@font-face {
+    font-family: "text";
+    src: url(material/Inter.ttf);
+}
+
+body{
+    margin: 0 auto;
+    font-family:text;
+}
+
+header{
+    display: flex;
+    gap: 10px;
+
+    background-color: white;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 0 10px;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+#logga{
+    height: 20px;
+    padding: 10px 0;
+}
+
+#container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+
+    font-size: 12px;
+}
+
+#container a{
+    color: #050505;
+    text-decoration: none;
+}
+
+#left{
+    display: flex;
+    gap: 20px;
+}
+
+#right{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+#line{
+    height: 15px;
+    border-right: 1px solid #e5e5e5;
+}
+
+.knapp{
+    padding: 5px 10px;
+}
+
+.knapp:hover{
+    background-color: #e5e5e5;
+    border-radius: 5px;
+}
+
+.buttom{
+    background-color: #121212;
+    color: #f4f4f4 !important;
+    text-decoration: none;
+
+    padding: 5px 10px;
+    border-radius: 5px;
+
+    box-shadow: 1px 1px 4px 2px rgba(0, 0, 0, 0.1);
+}
+
+.buttom:hover{
+    background-color: #353535;
+}
+
+#hamburger{
+    display: none;
+    width: 20px;
+}
+
+/* START PÅ MAIN*/
+
+main{
+    max-width: 1000px;
+    margin: 100px auto;
+}
+
+#together{
+    display: flex;
+}
+
+#together-text{
+    max-width: 510px;
+}
+
+#togetherbild{
+    max-width: 490px;
+}
+
+/*NY DIV I MAIN*/
+
+#company{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+
+    margin: 100px 0;
+    padding: 30px;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#company img{
+    height: 25px;
+}
+
+/*NY DIV I MAIN*/
+
+.dog-information{
+    max-width: 450px;
+}
+
+.dog-information-h{
+    font-size: 36px;
+    margin: 0;
+}
+
+.dog-information-p{
+    font-size: 15px;
+    font-weight: 320;
+    margin: 20px 0 40px;
+}
+
+.dogpicture{
+    max-width: 1000px;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.1);
+}
+
+.citat{
+   color: #999999;
+   font-size: 36px;
+   font-weight: 550;
+   margin: 20px auto;
+   text-align: center;
+   padding: 0 20px;
+}
+
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto 80px;
+}
+
+.user img{
+    height: 40px;
+    margin: 0 10px;
+}
+
+.user-p-1{
+    font-size: 14px;
+    color: #050505;
+    font-weight: 500;
+    margin: 0;
+}
+
+.user-p-2{
+    font-size: 12px;
+    color: #999999;
+    margin: 0;
+}
+
+#border{
+    border-bottom: 1px solid #e5e5e5;
+}
+
+/*NY DIV I MAIN*/
+
+#free-plan{
+    max-width: 600px;
+    margin: 0 auto;
+
+    padding-top: 30px;
+}
+
+#start-free{
+    text-align: center;
+}
+
+#start-free h2{
+    margin-bottom: 0;
+    font-size: 36px;
+}
+
+#start-free p{
+    font-size: 15px;
+    font-weight: 320;
+    padding: 0px 30px;
+    margin-bottom: 20px;
+}
+
+h1, h2{
+    color: #050505;
+    font-size: 45px;
+}
+
+p{
+    color: #666666;
+    font-size: 18px;
+}
+
+@media (max-width: 600px) {
+    header{
+        max-width: 580px;
+        border-bottom: none;
+        position: static;
+    }
+    
+    #left{
+        display: none;
+    }
+
+    #right{
+        display: none;
+    }
+
+    #hamburger{
+        display: block;
+        margin: 10px 10px 0 auto
+    }
+
+    #hamburger:hover{
+        background-color: #999999;
+    }
+
+    main{
+        max-width: 540px;
+    }
+
+    #together{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+
+    .dog-information{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .dogpicture{
+        max-width: 540px;
+    }
+
+    .citat{
+        font-size: 26px;
+        margin-top: 40px;
+    }
+
+
+}
