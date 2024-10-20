@@ -102,6 +102,10 @@ main{
     max-width: 510px;
 }
 
+#together-text p{
+    font-size: 18px;
+}
+
 #togetherbild{
     max-width: 490px;
 }
@@ -136,7 +140,6 @@ main{
 }
 
 .dog-information-p{
-    font-size: 15px;
     font-weight: 320;
     margin: 20px 0 40px;
 }
@@ -204,7 +207,6 @@ main{
 }
 
 #start-free p{
-    font-size: 15px;
     font-weight: 320;
     padding: 0px 30px;
     margin-bottom: 20px;
@@ -226,10 +228,6 @@ main{
 
 #barky-for-teams{
     color: #050505;
-}
-
-.free-start-rutor p{
-    font-size: 15px;
 }
 
 #fetch{
@@ -259,7 +257,6 @@ main{
 
 #built-for-team p{
     margin: 10px 0 5px;
-    font-size: 15px;
 }
 
 #team-2{
@@ -282,7 +279,6 @@ main{
 }
 
 .parts p{
-    font-size: 15px;
     font-weight: 400;
 }
 
@@ -319,7 +315,6 @@ main{
 
 #rated p{
     color: #050505;
-    font-size: 15px;
 }
 
 #rated img{
@@ -350,7 +345,6 @@ main{
 
 .procent-1 p{
     color: #666666;
-    font-size: 15px;
     margin-top: 5px;
 }
 
@@ -364,7 +358,6 @@ main{
 }
 
 #try-barky-today p{
-    font-size: 15px;
     margin-top: 5px;
     color: #7f7f7f;
 }
@@ -438,7 +431,7 @@ h1, h2{
 
 p{
     color: #666666;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 @media (max-width: 600px) {
